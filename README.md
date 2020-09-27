@@ -36,3 +36,6 @@ Transistor Mithilfe dieser Funktion, lassen sich die Grünen LEDs unten manuell 
 
 ## Die Platine
 ![Platine](/images/Platine_final.PNG)
+
+## Übersicht zu Widerständen und Leds
+![Platine](/images/übersicht.PNG)
