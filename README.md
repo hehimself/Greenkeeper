@@ -33,3 +33,6 @@ PUMP Automatik Hierbei lässt sich die Bewässerung ausschalten um sicher zu geh
 Nachtmodus Der Nachtmodus lässt sich über das Menü aktivieren/deaktivieren. Während der Nachtmodus aktiviert ist gehen alle Status LEDs aus.
 Display Mit diesem Menü Punkt lässt sich das Display ausschalten, sodass alles Dunkel ist. Wenn man das Display wieder anschalten möchte muss man einfach den "Menü" Button (Button_S1) drücken.
 Transistor Mithilfe dieser Funktion, lassen sich die Grünen LEDs unten manuell anschalten. Diese sind jedoch zurzeit nur für ein schönes aussehen und noch komplett ohne eine sinnvolle Funktion
+
+## Die Platine
+![GitHub Logo](/images/logo.png)
