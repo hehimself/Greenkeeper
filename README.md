@@ -10,7 +10,7 @@ Die Bewässerungsanlage ist recht simple aufgebaut. Es wird mithilfe des Sensor 
 void Bewaesserungssystem() {
   //Als erstes wird eine Bodenmessung durchgeführt
   Bodenmessung();
-```
+```C++
 //Falls der Boden zu trocken ist wird die Pumpe eingeschalten
   if (Bodensensor_Messwert >= 450) {
     if (Pumpe_Auto == 1) {
