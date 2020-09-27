@@ -65,6 +65,7 @@ Transistor Mithilfe dieser Funktion, lassen sich die Grünen LEDs unten manuell 
 ![Platine](/images/übersicht.PNG)
 
 # Bauanleitung
+Die Gesamte Anleitung gibts hier: [hackster.io](https://www.hackster.io/ms2002maerz14/arduino-greenkeeper-687363)
 WARNUNG: Man sollte bereits Erfahrung im löten von SMD Komponenten der Größe 0805 besitzen, da sonst die Komponenten oder die Platine beschädigt werden können.
 
 ### Platine löten
