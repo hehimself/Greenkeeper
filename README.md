@@ -39,3 +39,22 @@ Transistor Mithilfe dieser Funktion, lassen sich die Grünen LEDs unten manuell 
 
 ## Übersicht zu Widerständen und Leds
 ![Platine](/images/übersicht.PNG)
+
+# Bauanleitung
+WARNUNG: Man sollte bereits Erfahrung im löten von SMD Komponenten der Größe 0805 besitzen, da sonst die Komponenten oder die Platine beschädigt werden können.
+
+## Platine löten
+
+Ich rate aus eigener Erfahrung mehrere Platinen und mehr Komponenten als angegeben sich zu kaufen, da es sehr schnell gehen kann eine SMD Komponente zu zerstören. Am Besten nimmt man sich die Übersicht zu Widerständen uns LEDs zur Hilfe während des löten, um zu wissen, welches Bauteil, wo gelötet werden muss.
+
+## Platine testen
+
+Zum testen aller Funktionen und zum Einstellen der Parameter der Sensoren habe ich die Platine per USB mit dem Computer verbunden und nacheinander alle Sensoren, Schalter und Display getestet.
+
+## Inbetriebnahme
+
+Am Besten befestigt man den Schlauch mit ein bisschen Tesafilm an dem Topf, damit dieser während der Bewässerung nicht verrutscht. Zudem ist es nun Zeit den Sensor für die Bodenfeuchtigkeit in die Erde zu stecken.
+
+Nun ist es Zeit sich um den Wassertank zu kümmer. Hierbei empfehle ich die Pumpe am Boden des Behälters oder des Tanks festzukleben. Das Relais habe ich in meinem Fall einfach an die Seite des Wasserbehälter geklebt (siehe Abbildung unten)
+
+Die Platine habe ich mithilfe von Platinen Abstandshalter an der Wand befestigt und im Anschluss alle Anschlüsse verkabelt. Die Stromversorgung erfolgt über ein Netzteil (9V). Eine Versorgung über USB ist zwar möglich jedoch wenn alle LEDs angeschalten sind und die Pumpe läuft, ist man an der Spitze der Leistung des Arduino. Das Bewässerungssystem ist nun einsatzbereit. Eventuell muss man im Code den Wert, ab wann die Pumpe pumpt noch für seine Pflanze anpassen.
