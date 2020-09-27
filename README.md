@@ -7,10 +7,10 @@ Zu Beginn habe ich eine Platine mithilfe von KiCAD erstellt. Auf der Platine kö
 ### 1. Die Bewässerung
 Die Bewässerungsanlage ist recht simple aufgebaut. Es wird mithilfe des Sensor die Bodenfeuchtigkeit gemessen. Wenn der Messwert einen gewissen Wert überschreitet wird die Pumpe mithilfe des Relais für eine Sekunde aktiviert. Alle 10 Sekunden wird die Bodenfeuchtigkeit gemessen. Somit wird sichergestellt, das die Pflanze immer genügend Wasser zur Verfügung hat.
 
+```C++
 void Bewaesserungssystem() {
   //Als erstes wird eine Bodenmessung durchgeführt
   Bodenmessung();
-```C++
 //Falls der Boden zu trocken ist wird die Pumpe eingeschalten
   if (Bodensensor_Messwert >= 450) {
     if (Pumpe_Auto == 1) {
