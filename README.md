@@ -35,4 +35,4 @@ Display Mit diesem Menü Punkt lässt sich das Display ausschalten, sodass alles
 Transistor Mithilfe dieser Funktion, lassen sich die Grünen LEDs unten manuell anschalten. Diese sind jedoch zurzeit nur für ein schönes aussehen und noch komplett ohne eine sinnvolle Funktion
 
 ## Die Platine
-![GitHub Logo](/images/Platine_final.png)
+![Platine](/images/Platine_final.PNG)
