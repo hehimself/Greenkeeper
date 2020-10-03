@@ -12,7 +12,7 @@ void Bewaesserungssystem() {
   //Als erstes wird eine Bodenmessung durchgeführt
   Bodenmessung();
 //Falls der Boden zu trocken ist wird die Pumpe eingeschalten
-  if (Bodensensor_Messwert >= 450) {
+  if (Bodensensor_Messwert >= 450) {        //Dieser Wert ist natürlich abhängig von Pflanze und Sensor
     if (Pumpe_Auto == 1) {
       LED_D12_Status = 1;
       LED_Steuerung();
@@ -90,5 +90,7 @@ Nun ist es Zeit sich um den Wassertank zu kümmer. Hierbei empfehle ich die Pump
 
 Die Platine habe ich mithilfe von Platinen Abstandshalter an der Wand befestigt und im Anschluss alle Anschlüsse verkabelt. Die Stromversorgung erfolgt über ein Netzteil (9V). Eine Versorgung über USB ist zwar möglich jedoch wenn alle LEDs angeschalten sind und die Pumpe läuft, ist man an der Spitze der Leistung des Arduino. Das Bewässerungssystem ist nun einsatzbereit. Eventuell muss man im Code den Wert, ab wann die Pumpe pumpt noch für seine Pflanze anpassen.
 
-Fertig...
+
 ![Platine](/images/Bauanleitung_4.jpg)
+
+Fertig...
