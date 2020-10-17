@@ -2,6 +2,7 @@
 ![Platine](/images/Greenkeeper.png)
 Der Arduino Greenkeeper ist ein vollautomatisiertes Bewässerungssystem für eine Zimmerpflanze.
 Zu Beginn habe ich eine Platine mithilfe von KiCAD erstellt. Auf der Platine können alle wichtigen Teile direkt verlötet werden. Die SMD LEDs helfen, den Status des Bewässerungssystems zu erkennen. Auf dem OLED Display werden die Messwerte wie Bodenfeuchtigkeit, Temperatur, Lichtstärke usw dargestellt. Zudem gibt es ein Menü, welches sich durch die Buttons steuern lässt.
+(Schaltplan unter: schema.pdf)
 
 ## Funktionsweise
 ### 1. Die Bewässerung
