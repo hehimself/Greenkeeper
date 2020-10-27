@@ -1,6 +1,8 @@
 # Greenkeeper
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 [![Generic badge](https://img.shields.io/badge/build-sucess-sucess.svg)](https://shields.io/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/pull/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
 ![Platine](/images/Greenkeeper.png)
 Der Arduino Greenkeeper ist ein vollautomatisiertes Bewässerungssystem für eine Zimmerpflanze.
